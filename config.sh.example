@@ -20,7 +20,7 @@
 #LICENSE="https://letsencrypt.org/documents/LE-SA-v1.0.1-July-27-2015.pdf"
 
 # Output directory for challenge-tokens to be served by webserver or deployed in HOOK (default: $SCRIPTDIR/.acme-challenges)
-#WELLKNOWN="${SCRIPTDIR}/.acme-challenges"
+#WELLKNOWN="${SCRIPTDIR}/.well-known/acme-challenge"
 
 # Base directory for account key, generated certificates and list of domains (default: $SCRIPTDIR -- uses config directory if undefined)
 #BASEDIR=$SCRIPTDIR
